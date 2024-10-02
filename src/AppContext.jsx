@@ -13,16 +13,17 @@ const AppContext = ({ children }) => {
                 using GoDaddy for domain management and Hostinger’s VPS server for hosting, including managing SSH root access 
                 for running Python and Express-based projects.` , `In addition to my technical work, I engage with clients to gather project requirements and ensure alignment with their vision. This includes participating in client meetings to discuss project details, offering technical solutions,
                  and delivering a product that meets both functional and business goals.` ]
-        }, {
-            period: '2023 - Current',
-            company: 'Merida Tech Minds',
-            role: 'Web Developer',
-            description: [
-                `I manage full-stack web development projects, handling both frontend (React) and backend (Express). I oversee hosting and deployment, using GoDaddy for domain management and Hostinger’s VPS for hosting, including SSH access for running Python and Express projects. Additionally, I work closely with clients, 
-                gathering requirements, attending meetings, and ensuring project goals are met.`
-            ]
+        },
+        //  {
+        //     period: '2023 - Current',
+        //     company: 'Merida Tech Minds',
+        //     role: 'Web Developer',
+        //     description: [
+        //         `I manage full-stack web development projects, handling both frontend (React) and backend (Express). I oversee hosting and deployment, using GoDaddy for domain management and Hostinger’s VPS for hosting, including SSH access for running Python and Express projects. Additionally, I work closely with clients, 
+        //         gathering requirements, attending meetings, and ensuring project goals are met.`
+        //     ]
 
-        }
+        // }
     ]
     let projects = [
         {
