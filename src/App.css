@@ -1,38 +1,136 @@
-.App {
-  text-align: center;
+*{
+  box-sizing: border-box;
+  padding: 0px;
+  margin: 0px;
+}
+.btn-close-white {
+  filter: invert(1);
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.txtclr {
+  color: rgb(195, 167, 232);
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
+.bgclr {
+  background-color: rgb(195, 167, 232);
+}
+
+.bgclr1 {
+  background-color: rgb(31, 26, 31);
+}
+
+.bgclr2 {
+  background-color: rgb(105, 39, 64);
+}
+
+.bebas {
+  font-family: "Bebas Neue", sans-serif;
+  font-style: normal;
+}
+
+.poppins {
+  font-family: "Poppins", sans-serif;
+  font-style: normal;
+}
+.utd{
+  animation: utd infinite 3s linear alternate;
+}
+@keyframes utd {
+  0% {
+    transform: translateY(0);
+  }
+
+  50% {
+    transform: translateY(20px);
+  }
+
+  100% {
+    transform: translateY(0px);
+  }
+
+}
+.ltr {
+  animation: ltr infinite 3s linear alternate;
+}
+
+@keyframes ltr {
+  0% {
+    transform: translateX(0);
+  }
+
+  50% {
+    transform: translateX(30px);
+  }
+
+  100% {
+    transform: translateX(0px);
+  }
+
+}
+
+.ltr2 {
+  animation: ltr2 infinite 3s linear alternate;
+}
+
+@keyframes ltr2 {
+  20% {
+    transform: translateX(0);
+  }
+
+  50% {
+    transform: translateX(30px);
+  }
+
+  100% {
+    transform: translateX(0px);
   }
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.dotani {
+  animation: dotani infinite 1.5s linear alternate;
 }
 
-.App-link {
-  color: #61dafb;
+@keyframes dotani {
+  0% {
+    transform: scale(0);
+  }
+
+  50% {
+    transform: scale(1.5);
+  }
+
+  90% {
+    opacity: 1;
+  }
+
+  100% {
+    transform: scale(0);
+    opacity: 0;
+  }
+
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+.dtu {
+  animation: dtu 1s linear;
+}
+
+@keyframes dtu {
+  0% {
+    opacity: 0;
+    transform: translateY(30px);
   }
-  to {
-    transform: rotate(360deg);
+
+  100% {
+    opacity: 1;
+    transform: translateY(0px);
   }
+}
+
+.vrl {
+  writing-mode: vertical-lr;
+  letter-spacing: 10px;
+  margin: 0px;
+}
+.vrl2{
+  writing-mode: vertical-lr;
 }

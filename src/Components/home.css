@@ -1,0 +1,31 @@
+.slick-slide>div {
+  margin: 0px 10px;
+}
+
+.lspacing {
+  letter-spacing: 2px;
+}
+
+.gray {
+  filter: grayscale(100%);
+  transition: filter 0.3s ease;
+  /* for smooth transition */
+}
+
+.gray:hover {
+  filter: grayscale(0%);
+}
+
+.opacityani {
+  animation: opacityani 0.9 linear alternate;
+}
+
+@keyframes opacityani {
+  0% {
+    opacity: 0;
+  }
+
+  100% {
+    opacity: 1;
+  }
+}
