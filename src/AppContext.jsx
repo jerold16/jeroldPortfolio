@@ -63,14 +63,24 @@ intuitive user experience across all devices. The project involved the implement
 interactive components to enhance user engagement.`,
             url: 'https://printlele.com',
         },
-        // {
-        //     title: 'Printlele E-Commerce',
-        //     category: 'Website',
-        //     img: '../Assset/skilllearningHome.png',
-        //     description: `Developed a fully responsive website from the ground up using React.js, ensuring optimal performance and an 
-        // intuitive user experience across all devices. The project involved the implementation of a modern, clean UI, and 
-        // interactive components to enhance user engagement.`
-        // },
+        {
+            title: 'MS Builders',
+            category: 'Website',
+            img: '../Assset/msbuildersbanner.png',
+            description: `Developed a fully responsive website from the ground up using React.js, ensuring optimal performance and an 
+        intuitive user experience across all devices. The project involved the implementation of a modern, clean UI, and 
+        interactive components to enhance user engagement.`,
+        url:'https://www.msbuilders.org.in/'
+        },
+        {
+            title: 'Fortune Trading Academy',
+            category: 'Website',
+            img: '../Assset/fortuneTradingWebsite.png',
+            description: `Developed a fully responsive website from the ground up using React.js, ensuring optimal performance and an 
+        intuitive user experience across all devices. The project involved the implementation of a modern, clean UI, and 
+        interactive components to enhance user engagement.`,
+        url:'https://www.fortunetradingacademy.com/'
+        },
     ]
     let value = { projects, experience }
     return (
