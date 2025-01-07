@@ -5,6 +5,7 @@ export const Storage = createContext()
 const AppContext = ({ children }) => {
     let experience = [
         {
+
             period: '2023 - Current',
             company: 'Merida Tech Minds',
             role: 'Web Developer',
@@ -32,7 +33,8 @@ const AppContext = ({ children }) => {
             img: '../Assset/meridatechMindsHome.png',
             description: `Developed a fully responsive website from the ground up using React.js, ensuring optimal performance and an 
 intuitive user experience across all devices. The project involved the implementation of a modern, clean UI, and 
-interactive components to enhance user engagement.`
+interactive components to enhance user engagement.`,
+            url: 'https://meridatechminds.com',
         },
         {
             title: 'Daily activity Sheet',
@@ -40,7 +42,8 @@ interactive components to enhance user engagement.`
             img: '../Assset/dasHome.png',
             description: `Developed a fully responsive website from the ground up using React.js, ensuring optimal performance and an 
 intuitive user experience across all devices. The project involved the implementation of a modern, clean UI, and 
-interactive components to enhance user engagement.`
+interactive components to enhance user engagement.`,
+            url: 'https://das.meridahr.com',
         },
         {
             title: 'Skill Learning Academy Websites',
@@ -48,7 +51,8 @@ interactive components to enhance user engagement.`
             img: '../Assset/skilllearningHome.png',
             description: `Developed a fully responsive website from the ground up using React.js, ensuring optimal performance and an 
 intuitive user experience across all devices. The project involved the implementation of a modern, clean UI, and 
-interactive components to enhance user engagement.`
+interactive components to enhance user engagement.`,
+            url: 'https://skilllearningacademy.com',
         },
         {
             title: 'Printlele E-Commerce',
@@ -56,16 +60,17 @@ interactive components to enhance user engagement.`
             img: '../Assset/printleleHome.png',
             description: `Developed a fully responsive website from the ground up using React.js, ensuring optimal performance and an 
 intuitive user experience across all devices. The project involved the implementation of a modern, clean UI, and 
-interactive components to enhance user engagement.`
+interactive components to enhance user engagement.`,
+            url: 'https://printlele.com',
         },
-        {
-            title: 'Printlele E-Commerce',
-            category: 'Website',
-            img: '../Assset/skilllearningHome.png',
-            description: `Developed a fully responsive website from the ground up using React.js, ensuring optimal performance and an 
-        intuitive user experience across all devices. The project involved the implementation of a modern, clean UI, and 
-        interactive components to enhance user engagement.`
-        },
+        // {
+        //     title: 'Printlele E-Commerce',
+        //     category: 'Website',
+        //     img: '../Assset/skilllearningHome.png',
+        //     description: `Developed a fully responsive website from the ground up using React.js, ensuring optimal performance and an 
+        // intuitive user experience across all devices. The project involved the implementation of a modern, clean UI, and 
+        // interactive components to enhance user engagement.`
+        // },
     ]
     let value = { projects, experience }
     return (

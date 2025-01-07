@@ -14,7 +14,13 @@ const ProjectSection = () => {
                 flex gap-2 mx-auto relative lg:absolute top-1/2 left-1/2 -translate-y-1/2 
             -translate-x-1/2 ' >
                 {projects.map((obj, index) => (
-                    <section onClick={() => setSelectedProduct(index)}
+                    <section onClick={() => {
+                        if (selectedProject == index) {
+                            window.open(projects[selectedProject].url, '_blank')
+                        }
+                        else
+                            setSelectedProduct(index)
+                    }}
                         className={`cursor-pointer duration-700 min-h-[50vh] sm:min-h-[60vh] bg-black relative
                          ${selectedProject == index ? 'flex-1' : "flex-[0.3] sm:flex-[0.2] lg:flex-[0.1]  "}  `} >
                         <img src={obj.img ? obj.img : require('../Assset/5_6066513998474379431.jpg')}
