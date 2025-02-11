@@ -70,7 +70,16 @@ interactive components to enhance user engagement.`,
             description: `Developed a fully responsive website from the ground up using React.js, ensuring optimal performance and an 
         intuitive user experience across all devices. The project involved the implementation of a modern, clean UI, and 
         interactive components to enhance user engagement.`,
-        url:'https://www.msbuilders.org.in/'
+            url: 'https://www.msbuilders.org.in/'
+        },
+        {
+            title: 'Erayaa Builders and developers',
+            category: 'Website',
+            img: '../Assset/erayaaWebsiteBanner.png',
+            description: `Developed a fully responsive website from the ground up using React.js, ensuring optimal performance and an 
+        intuitive user experience across all devices. The project involved the implementation of a modern, clean UI, and 
+        interactive components to enhance user engagement.`,
+            url: 'https://www.erayaa.in/'
         },
         {
             title: 'Fortune Trading Academy',
@@ -79,7 +88,7 @@ interactive components to enhance user engagement.`,
             description: `Developed a fully responsive website from the ground up using React.js, ensuring optimal performance and an 
         intuitive user experience across all devices. The project involved the implementation of a modern, clean UI, and 
         interactive components to enhance user engagement.`,
-        url:'https://www.fortunetradingacademy.com/'
+            url: 'https://www.fortunetradingacademy.com/'
         },
     ]
     let value = { projects, experience }
