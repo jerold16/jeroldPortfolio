@@ -4,6 +4,7 @@ import Instagram from '../Icons/Instagram'
 import LinkedInIcon from '../Icons/LinkedInIcon'
 import Github from '../Icons/Github'
 import KeyBoardCords from './MiniComponents/KeyBoardCords'
+import ResumeIcon from '../Icons/ResumeIcon'
 
 const HomeBanner = () => {
 
@@ -20,12 +21,12 @@ const HomeBanner = () => {
                     <article className='relative z-10 ' >
 
                         <h2 className='txtclr bebas text-8xl sm:text-7xl lg:text-[11rem] dtu ' >Jerold <br />
-                            <span className='text-white dtu' >Resume </span> </h2>
-                        <p className='text-slate-500 poppins text-lg dtu' >I'm Mern Stack Web Developer <br /> with 1 year of experience </p>
+                            <span className='text-white dtu' >Portfolio </span> </h2>
+                        <p className='text-slate-500 poppins text-lg dtu' >I'm Mern Stack Web Developer <br /> with 1.6 year of experience </p>
 
                         <div className='flex w-full justify-between items-center dtu ' >
-                            <div className='text-lg flex gap-2 items-center '> <div className='w-[2px] dotani h-[2px] bg-green-500 rounded-full p-1 ' > 
-                                </div> Available for work  </div>
+                            <div className='text-lg flex gap-2 items-center '> <div className='w-[2px] dotani h-[2px] bg-green-500 rounded-full p-1 ' >
+                            </div> Available for work  </div>
                             <hr className='border-2 rotate-90 w-10 border-slate-50 ' />
                             <div className='flex gap-3 ' >
 
@@ -35,6 +36,8 @@ const HomeBanner = () => {
                                     className='text-slate-50 hover:text-violet-400 cursor-pointer ' > <Github /> </a>
                                 <a href='https://www.linkedin.com/in/jerold-raja-singh-i-512179280/' target='_blank'
                                     className='text-slate-50 hover:text-violet-400 cursor-pointer ' > <LinkedInIcon /> </a>
+                                <a href='https://www.linkedin.com/in/jerold-raja-singh-i-512179280/' target='_blank'
+                                    className='text-slate-50 hover:text-violet-400 cursor-pointer ' > <ResumeIcon size={24} /> </a>
 
                             </div>
                         </div>

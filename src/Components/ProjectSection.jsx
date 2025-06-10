@@ -23,9 +23,12 @@ const ProjectSection = () => {
                     }}
                         className={`cursor-pointer duration-700 min-h-[50vh] sm:min-h-[60vh] bg-black relative
                          ${selectedProject == index ? 'flex-1' : "flex-[0.3] sm:flex-[0.2] lg:flex-[0.1]  "}  `} >
+                        
                         <img src={obj.img ? obj.img : require('../Assset/5_6066513998474379431.jpg')}
                             className={` ${selectedProject == index ? " object-cover " : "object-cover gray"}
                              duration-300 h-full w-100  `} alt="Section" />
+                       
+                       
                         <article
                             className={` ${selectedProject == index ? "  absolute top-0 w-full h-full bg-slate-950 bg-opacity-20 "
                                 : `w-full h-full top-0 absolute bg-opacity-50 bg-slate-800 
@@ -37,7 +40,6 @@ const ProjectSection = () => {
                             <p className={`fw-semibold text-white poppins ${selectedProject == index ? "d-none " :
                                 'bottom-0 absolute left-1/2 -translate-x-1/2  '}  `}>
                                 00{index + 1} </p>
-
                         </article>
                     </section>
                 ))}

@@ -90,6 +90,24 @@ interactive components to enhance user engagement.`,
         interactive components to enhance user engagement.`,
             url: 'https://www.fortunetradingacademy.com/'
         },
+        {
+            title: 'Campuswave Learn collaborate Innovate',
+            category: 'Website',
+            img: '../Assset/campuswave.png',
+            description: `Developed a fully responsive website from the ground up using React.js, ensuring optimal performance and an 
+        intuitive user experience across all devices. The project involved the implementation of a modern, clean UI, and 
+        interactive components to enhance user engagement.`,
+            url: 'https://www.campuswave.in/'
+        },
+         {
+            title: 'Agasaresidence Website',
+            category: 'Website',
+            img: '../Assset/agasaresidence.png',
+            description: `Developed a fully responsive website from the ground up using React.js, ensuring optimal performance and an 
+        intuitive user experience across all devices. The project involved the implementation of a modern, clean UI, and 
+        interactive components to enhance user engagement.`,
+            url: 'https://www.agasaresidences.com/'
+        },
     ]
     let value = { projects, experience }
     return (
