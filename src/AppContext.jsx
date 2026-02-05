@@ -99,7 +99,7 @@ interactive components to enhance user engagement.`,
         interactive components to enhance user engagement.`,
             url: 'https://www.campuswave.in/'
         },
-         {
+        {
             title: 'Agasaresidence Website',
             category: 'Website',
             img: '../Assset/agasaresidence.png',
@@ -115,10 +115,33 @@ interactive components to enhance user engagement.`,
             description: `Developed a fully responsive website from the ground up using React.js, ensuring optimal performance and an 
         intuitive user experience across all devices. The project involved the implementation of a modern, clean UI, and 
         interactive components to enhance user engagement.`,
-            url: 'https://www.campuswave.in/'
         },
-        
+        {
+            title: 'Siveon Groups',
+            category: 'Website',
+            img: '../Assset/siveongroups.png',
+            description: `Developed a fully responsive website from the ground up using React.js, ensuring optimal performance and an 
+        intuitive user experience across all devices. The project involved the implementation of a modern, clean UI, and 
+        interactive components to enhance user engagement.`,
+            url: 'https://www.siveongroups.com/'
+        },
+        {
+            title: 'HPL Steri System',
+            category: 'Website',
+            img: '../Assset/hplsteri.png',
+            description: `Developed a fully responsive website from the ground up using React.js, ensuring optimal performance and an 
+        intuitive user experience across all devices. The project involved the implementation of a modern, clean UI, and 
+        interactive components to enhance user engagement.`,
+            url: 'https://www.hplsterisystem.com/'
+        }, {
+            title: 'Clinic Management Software',
+            img: '../Assset/clinicManagement.png',
+            description: `Developed a fully responsive website from the ground up using React.js, ensuring optimal performance and an 
+        intuitive user experience across all devices. The project involved the implementation of a modern, clean UI, and 
+        interactive components to enhance user engagement.`,
+        }
     ]
+    // hpl steri 
     let value = { projects, experience }
     return (
         <Storage.Provider value={value} >

@@ -24,7 +24,7 @@ const ProjectSection = () => {
                         <section
                             key={index}
                             onClick={() => {
-                                if (isActive) {
+                                if (isActive && obj.url) {
                                     window.open(obj.url, '_blank')
                                 } else {
                                     setSelectedIndex(index)
