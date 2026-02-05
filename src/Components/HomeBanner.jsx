@@ -8,7 +8,13 @@ import ResumeIcon from '../Icons/ResumeIcon'
 
 const HomeBanner = () => {
 
-
+    const calculateExperience = () => {
+        const startDate = new Date('2023-8-14');
+        const currentDate = new Date();
+        const diffInMs = currentDate - startDate;
+        const diffInYears = diffInMs / (1000 * 60 * 60 * 24 * 365.25);
+        return diffInYears.toFixed(1);
+    };
 
     return (
         <div className='' id='home' >
@@ -22,7 +28,7 @@ const HomeBanner = () => {
 
                         <h2 className='txtclr bebas text-8xl sm:text-7xl lg:text-[11rem] dtu ' >Jerold <br />
                             <span className='text-white dtu' >Portfolio </span> </h2>
-                        <p className='text-slate-500 poppins text-lg dtu' >I'm Mern Stack Web Developer <br /> with 1.6 year of experience </p>
+                        <p className='text-slate-500 poppins text-lg dtu' >I'm Mern Stack Web Developer <br /> with {calculateExperience()} year of experience </p>
 
                         <div className='flex w-full justify-between items-center dtu ' >
                             <div className='text-lg flex gap-2 items-center '> <div className='w-[2px] dotani h-[2px] bg-green-500 rounded-full p-1 ' >

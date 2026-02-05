@@ -4,23 +4,23 @@ const SkillsSection = () => {
     let skills = [
         {
             name: 'javascript',
-            percentage: 60,
-        },
-        {
-            name: 'react',
             percentage: 80,
         },
         {
-            name: 'Java',
+            name: 'react',
+            percentage: 90,
+        },
+        {
+            name: 'Next Js',
             percentage: 75,
         },
         {
             name: 'Express',
-            percentage: 70,
+            percentage: 85,
         },
         {
-            name: 'Spring Boot',
-            percentage: 70,
+            name: 'Redux',
+            percentage: 80,
         },
     ]
     return (

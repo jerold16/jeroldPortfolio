@@ -108,6 +108,16 @@ interactive components to enhance user engagement.`,
         interactive components to enhance user engagement.`,
             url: 'https://www.agasaresidences.com/'
         },
+        {
+            title: 'Milana',
+            category: 'Social Media',
+            img: '../Assset/campuswave.png',
+            description: `Developed a fully responsive website from the ground up using React.js, ensuring optimal performance and an 
+        intuitive user experience across all devices. The project involved the implementation of a modern, clean UI, and 
+        interactive components to enhance user engagement.`,
+            url: 'https://www.campuswave.in/'
+        },
+        
     ]
     let value = { projects, experience }
     return (
