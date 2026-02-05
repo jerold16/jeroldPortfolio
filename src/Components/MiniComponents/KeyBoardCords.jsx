@@ -1,4 +1,4 @@
-import React, { useEffect, useRef, useState } from 'react'
+import React from 'react'
 
 const KeyBoardCords = ({ pannel, pannelbtn, cord, audio, audioRef, cordaudio, cordbtn }) => {
 
@@ -20,9 +20,9 @@ const KeyBoardCords = ({ pannel, pannelbtn, cord, audio, audioRef, cordaudio, co
         }
     };
     return (
-        <div onMouseEnter={playAudio} 
-        // onMouseLeave={stopAudio}
-         className='relative ' >
+        <div onMouseEnter={playAudio}
+            // onMouseLeave={stopAudio}
+            className='relative ' >
             <audio ref={audioRef} src={audio} id={audio}>
             </audio>
             <div className={`  w-full hover:translate-x-[7px] duration-300 h-[100px] 

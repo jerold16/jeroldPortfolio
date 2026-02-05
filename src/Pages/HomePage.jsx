@@ -1,4 +1,4 @@
-import React, { useRef } from 'react'
+import React from 'react'
 import NavBar from '../Components/NavBar'
 import HomeBanner from '../Components/HomeBanner'
 import ServiceSection from '../Components/ServiceSection'

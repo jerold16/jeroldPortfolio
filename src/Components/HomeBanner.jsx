@@ -1,5 +1,4 @@
-import React, { useRef } from 'react'
-import HalfEcxplice from './MiniComponents/HalfEcxplice'
+import React from 'react'
 import Instagram from '../Icons/Instagram'
 import LinkedInIcon from '../Icons/LinkedInIcon'
 import Github from '../Icons/Github'
@@ -37,12 +36,16 @@ const HomeBanner = () => {
                             <div className='flex gap-3 ' >
 
                                 <a href='https://www.instagram.com/a_l_b_a_t_r_o_zzzzz/' target='_blank'
+                                    rel="noopener noreferrer"
                                     className='text-slate-50 hover:text-violet-400 cursor-pointer ' > <Instagram /> </a>
                                 <a href='https://github.com/jerold16/' target='_blank'
+                                    rel="noopener noreferrer"
                                     className='text-slate-50 hover:text-violet-400 cursor-pointer ' > <Github /> </a>
                                 <a href='https://www.linkedin.com/in/jerold-raja-singh-i-512179280/' target='_blank'
+                                    rel="noopener noreferrer"
                                     className='text-slate-50 hover:text-violet-400 cursor-pointer ' > <LinkedInIcon /> </a>
                                 <a href='https://www.linkedin.com/in/jerold-raja-singh-i-512179280/' target='_blank'
+                                    rel="noopener noreferrer"
                                     className='text-slate-50 hover:text-violet-400 cursor-pointer ' > <ResumeIcon size={24} /> </a>
 
                             </div>
