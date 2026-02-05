@@ -11,7 +11,7 @@ const AboutMe = () => {
             <main className='container row absolute top-1/2 left-1/2
              -translate-y-1/2 -translate-x-1/2 min-h-[10vh] ' >
                 <section className='col-lg-7 my-3 ' >
-                    <img src={require('../Assset/computerImg.webp')} alt="Image" className='w-4/5 lg:w-3/5 lg:mx-auto ' />
+                    <img src={require('../Assset/computerImg.webp')} alt="Computer" className='w-4/5 lg:w-3/5 lg:mx-auto ' />
                 </section>
                 <section className='col-lg-4 poppins flex items-center mt-3 ' >
                     <article>
